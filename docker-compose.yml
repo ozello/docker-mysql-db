@@ -9,7 +9,7 @@ services:
        - /home/alex/dev/docker/mysql/share:/recreateDb
      restart: always
      environment:
-       MYSQL_ROOT_PASSWORD: padtec
+       MYSQL_ROOT_PASSWORD: pwdroot
 volumes:
     db_data:
     share:
